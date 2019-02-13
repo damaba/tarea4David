@@ -26,6 +26,35 @@ public class Leyenda {
         this.pasiva = pasiva;
         this.skin = skin;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getPasiva() {
+        return pasiva;
+    }
+
+    public String getSkin() {
+        return skin;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setPasiva(String pasiva) {
+        this.pasiva = pasiva;
+    }
+
+    public void setSkin(String skin) {
+        this.skin = skin;
+    }
+
+    @Override
+    public String toString() {
+        return "Leyenda{" + "nombre=" + nombre + ", pasiva=" + pasiva + ", skin=" + skin + '}';
+    }
     
     
    
